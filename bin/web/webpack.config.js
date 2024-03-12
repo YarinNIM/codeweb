@@ -11,7 +11,7 @@ dotenv.config();
 
 const rules = [
   {
-    test: /\.(js|jsx|ts|tsx)$/,
+    test: /\.(js|ts)$/,
     use: ['babel-loader'],
     exclude: /node_modules/,
   },
@@ -80,11 +80,11 @@ module.exports = (env, { mode }) => {
 
   return {
     mode,
-    entry: './src/Main.tsx',
+    entry: './src/main.ts',
     output: getOutput(),
     module: { rules },
     resolve: {
-      extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
+      extensions: ['.ts', '.js','.json'],
       alias: { '@': srcPath },
     },
     target: ['web', 'es5'],
