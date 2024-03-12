@@ -1,0 +1,28 @@
+{
+  "name": "Umpayrchant Web",
+  "short_name": "Umpay_web",
+  "description": "website for Umpay web",
+  "icons": [
+    {
+      "src": "/logo-72-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "id": "/",
+  "background_color": "#f8f8f8",
+  "theme_color": "#fbbf23",
+  "scope": "/",
+  "display": "standalone"
+}

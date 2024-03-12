@@ -1,0 +1,11 @@
+{
+  "extends": "../../bin/common/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "build",
+    "jsx": "react-jsx"
+  },
+  "exclude": ["./build", "./src", "jest.config.ts"],
+  "references": [
+    {"path": "../../packages/ajax"}
+  ]
+}
