@@ -1,0 +1,14 @@
+{
+  "extends": "../../bin/common/tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "build",
+    "paths": {"@/*": ["./src/*"]}
+  },
+  "exclude": ["./build", "**/*.test.ts"],
+  "include": ["./src/**/*"],
+  "references": [
+    {"path": "../../packages/web-config"},
+    {"path": "../../packages/ajax"}
+  ]
+}

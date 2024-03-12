@@ -1,0 +1,16 @@
+{
+  "name": "@core/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "jest --roots=./src",
+    "test:dev": "npm run test -- --watchAll",
+    "dev": "npm run build -- -w",
+    "jsdoc": "npm run build && jsdoc build/**/* -d jsdoc",
+    "eslint": "eslint src --ext .ts"
+  },
+  "author": "Yarin NIM <yarin.nim@gmail.com>",
+  "license": "ISC"
+}

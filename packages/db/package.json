@@ -1,0 +1,23 @@
+{
+  "name": "@core/db",
+  "version": "1.0.0",
+  "description": "Database manipulation package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:dev": "npm run test -- --watchAll",
+    "jsdoc": "tsc && jsdoc build/**/* -d jsdoc",
+    "eslint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "Query",
+    "Builder"
+  ],
+  "author": "Yarin NIM <yarin.nim@gmail.com>",
+  "license": "ISC",
+  "sideEffects": false,
+  "dependencies": {
+    "knex": "^3.1.0",
+    "pg": "^8.7.3"
+  }
+}
